@@ -47,6 +47,7 @@ public class PokemonGymImpl implements PokemonGym {
         return pokemons.get(number);
     }
 
+
     @Override
     public void fightRound(PokemonTrainer trainer, PokemonGymOwner owner, Pokemon pokemon, Pokemon gymPokemon) {
         Scanner speler_A = new Scanner(System.in);
