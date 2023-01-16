@@ -25,32 +25,36 @@ public class FirePokemon extends Pokemon {
                 int currentHp = gymPokemon.getHp();
                 System.out.println(gymPokemon.getName() + " loses 2 hp in its attack with " + pokemon.getName());
                 gymPokemon.setHp(currentHp - 2);
-                System.out.println("Your attackers Pokemon " + gymPokemon.getName() + " has now " + gymPokemon.getHp() + " hp");
-                System.out.println("Your Pokemon " + pokemon.getName() + " has now " + pokemon.getHp() + " hp");
+                System.out.println(gymPokemon.getName() + " has now " + gymPokemon.getHp() + " hp");
+                System.out.println(pokemon.getName() + " has now " + pokemon.getHp() + " hp");
+            break;
             }
 
             case "electric": {
                 int currentHp = gymPokemon.getHp();
                 System.out.println(gymPokemon.getName() + " loses 4 hp in its attack with " + pokemon.getName());
                 gymPokemon.setHp(currentHp - 4);
-                System.out.println("Your attackers Pokemon " + gymPokemon.getName() + " has now " + gymPokemon.getHp() + " hp");
-                System.out.println("Your Pokemon " + pokemon.getName() + " has now " + pokemon.getHp() + " hp");
+                System.out.println(gymPokemon.getName() + " has now " + gymPokemon.getHp() + " hp");
+                System.out.println(pokemon.getName() + " has now " + pokemon.getHp() + " hp");
+                break;
             }
 
             case "water": {
                 int currentHp = gymPokemon.getHp();
                 System.out.println(gymPokemon.getName() + " loses 8 hp in its attack with " + pokemon.getName());
                 gymPokemon.setHp(currentHp - 8);
-                System.out.println("Your attackers Pokemon " + gymPokemon.getName() + " has now " + gymPokemon.getHp() + " hp");
-                System.out.println("Your Pokemon " + pokemon.getName() + " has now " + pokemon.getHp() + " hp");
+                System.out.println(gymPokemon.getName() + " has now " + gymPokemon.getHp() + " hp");
+                System.out.println(pokemon.getName() + " has now " + pokemon.getHp() + " hp");
+                break;
             }
 
             case "grass": {
                 int currentHp = gymPokemon.getHp();
                 System.out.println(gymPokemon.getName() + " loses 12 hp in its attack with " + pokemon.getName());
                 gymPokemon.setHp(currentHp - 12);
-                System.out.println("Your attackers Pokemon " + gymPokemon.getName() + " has now " + gymPokemon.getHp() + " hp");
-                System.out.println("Your Pokemon " + pokemon.getName() + " has now " + pokemon.getHp() + " hp");
+                System.out.println(gymPokemon.getName() + " has now " + gymPokemon.getHp() + " hp");
+                System.out.println(pokemon.getName() + " has now " + pokemon.getHp() + " hp");
+                break;
             }
         }
     }
